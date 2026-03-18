@@ -73,7 +73,7 @@ export default function Layout({ children, currentPageName }) {
     // { name: "Our Equipment", path: "OurEquipment" },
     // { name: "Track Shipment", path: "TrackShipment" },
     // { name: "Blog", path: "Blog" },
-     { name: "Contact Us", path: "Contact" },
+     { name: "Contact Us", path: "" },
     { name: "", path: "FAQ" },
    
   ];
