@@ -17,77 +17,14 @@ export default function Contact() {
           <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl text-shadow-glow">
             Get In Touch
           </h1>
-          <p className="mt-6 text-xl text-gray-200 max-w-3xl mx-auto text-shadow-md">
+          {/* <p className="mt-6 text-xl text-gray-200 max-w-3xl mx-auto text-shadow-md">
             We're here to help with all your transport needs. Reach out today for a quote or any questions you may have.
-          </p>
+          </p> */}
         </div>
       </div>
 
       <div className="py-16">
-        <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-16">
-          {/* Contact Form */}
-          <div className="bg-primary-dark/80 p-8 rounded-lg border border-gray-700">
-            <h2 className="text-3xl font-bold mb-6 text-white">Send Us a Message</h2>
-            <form className="space-y-6">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div className="space-y-2">
-                  <Label htmlFor="name" className="text-gray-300">Full Name</Label>
-                  <Input id="name" placeholder="Your Name" className="bg-secondary-dark border-gray-600 text-white placeholder:text-gray-400" />
-                </div>
-                <div className="space-y-2">
-                  <Label htmlFor="email" className="text-gray-300">Email Address</Label>
-                  <Input id="email" type="email" placeholder="your.email@example.com" className="bg-secondary-dark border-gray-600 text-white placeholder:text-gray-400" />
-                </div>
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="subject" className="text-gray-300">Subject</Label>
-                <Input id="subject" placeholder="e.g., Quote for Boat Transport" className="bg-secondary-dark border-gray-600 text-white placeholder:text-gray-400" />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="message" className="text-gray-300">Message</Label>
-                <Textarea id="message" rows={5} placeholder="Please provide details about your shipment..." className="bg-secondary-dark border-gray-600 text-white placeholder:text-gray-400" />
-              </div>
-              <div>
-                <Button type="submit" className="w-full cta-button-animated">
-                  Send Message
-                </Button>
-              </div>
-            </form>
-          </div>
-
-          {/* Contact Info & Map */}
-          <div className="space-y-8">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 text-white">Contact Information</h2>
-              <div className="space-y-4 text-lg">
-                <a href="tel:347-494-2235" className="flex items-center space-x-4 group">
-                  <Phone className="w-6 h-6 text-accent-cyan group-hover:scale-110 transition-transform" />
-                  <span className="text-gray-300 group-hover:text-white transition-colors">347-494-2235</span>
-                </a>
-                <a href="mailto:WeTransportEverything@gmail.com" className="flex items-center space-x-4 group">
-                  <Mail className="w-6 h-6 text-accent-cyan group-hover:scale-110 transition-transform" />
-                  <span className="text-gray-300 group-hover:text-white transition-colors">WeTransportEverything@gmail.com</span>
-                </a>
-                <a href="https://www.google.com/maps/place/980+Washington+St,+Franklin+Square,+NY+11010" target="_blank" rel="noopener noreferrer" className="flex items-start space-x-4 group">
-                  <MapPin className="w-6 h-6 text-accent-cyan mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
-                  <span className="text-gray-300 group-hover:text-white transition-colors">980 Washington St.<br />Franklin Square, NY 11010</span>
-                </a>
-              </div>
-            </div>
-            
-            <div className="h-96 w-full rounded-lg overflow-hidden border-2 border-accent-cyan/50 shadow-2xl shadow-accent-cyan/20">
-              <iframe
-                src={googleMapsEmbedUrl}
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-          </div>
-        </div>
+       
       </div>
     </div>
   );
