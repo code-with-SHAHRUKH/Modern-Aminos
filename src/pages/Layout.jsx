@@ -26,7 +26,7 @@ export default function Layout({ children, currentPageName }) {
   const [isOpen, setIsOpen] = React.useState(false);
 
   useEffect(() => {
-    const faviconUrl = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/28deaea62_WebsiteLogo.png";
+    const faviconUrl = "";
     let link = document.querySelector("link[rel~='icon']");
     if (!link) {
       link = document.createElement('link');
@@ -37,8 +37,8 @@ export default function Layout({ children, currentPageName }) {
   }, []);
 
   useEffect(() => {
-    const title = "Everything Transport | Nationwide Auto, Boat & Freight Shipping";
-    const description = "Nationwide auto, marine, equipment, and air cargo transport services. Fast quotes, reliable shipping, and specialized logistics with Everything Transport.";
+    const title = "Modern Aminos";
+    const description = " Modern Aminos";
     const keywords = "car transport, boat shipping, yacht hauling, equipment transport, freight logistics, air cargo, oversized loads, LTL shipping, heavy hauling";
 
     document.title = title;
